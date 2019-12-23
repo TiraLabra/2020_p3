@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (document.URL.includes("/en/")) {
+      var elem = document.getElementsByClassName("project-name")[0];
+      elem.innerHTML = "{{ site.entitle }}";
+      elem = document.getElementsByClassName("project-tagline")[0];
+      console.log(elem);
+      elem.innerHTML = "{{ site.endescription }}";
+    }
+  });
+  
+</script>
+</div>
