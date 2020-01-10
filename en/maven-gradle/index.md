@@ -14,7 +14,7 @@ Below minimum effort was to create maven and gradle projects for java are presen
 
 When using netbeans it's often convenient to first create the project repository since IDEs are typically able to automatically update  ```.gitignore``` files as the program progresses.
 
-![Git projekti](http://saskeli.kapsi.fi/create.png)
+![Git projekti](../../assets/create.png)
 
 You'll probably want to check the "Initialize repository with README.md" box so the project can be instantly cloned after creation.
 
@@ -22,7 +22,7 @@ You'll probably want to check the "Initialize repository with README.md" box so 
 
 Copy the link to the repository
 
-![clone](http://saskeli.kapsi.fi/clone.png)
+![clone](../../assets/clone.png)
 
 Run ```git clone <linkki repoon>```
 
@@ -30,17 +30,17 @@ Run ```git clone <linkki repoon>```
 
 Check ```Tools -> Plugins``` to make sure that gradle support is installed in neabeans.
 
-![plugin](http://saskeli.kapsi.fi/gradle_plugin.png)
+![plugin](../../assets/gradle_plugin.png)
 
 If gradle support has not been installed you can find it from the "available plugins" tab.
 
 Go to create a new project with netbeans but select ```Gradle -> Sinlge Gradle Project``` from the settings.
 
-![gradle create](http://saskeli.kapsi.fi/gradle_create1.png)
+![gradle create](../../assets/gradle_create1.png)
 
 Create the project in the repository you cloned.
 
-![location](http://saskeli.kapsi.fi/gradle_create2.png)
+![location](../../assets/gradle_create2.png)
 
 Add at least the following lines to the `build.gradle` file. You may want to update the file later as well but that is beyond the scope of this tutorial. (Add the lines to the right place in the file. The lines already in the file should point to the right locations)
 
@@ -62,11 +62,11 @@ check.dependsOn jacocoTestReport
 
 The project is created using the **New Project** wizard, but instead of selecting the **Java** category, select **Maven**. Now select **Java Application** from the list on the right.
 
-![create maven](http://saskeli.kapsi.fi/mvn_create.png)
+![create maven](../../assets/mvn_create.png)
 
 On the page **Name and Location**, you should give you program a good and descriptive name. Set **Project Location** to your cloned git repository. You should also change **Group id** to your project name or at least something other than _com.mycompany.enterprising.domain_. Note that this **should not contain any caps**. This is important if you are going to do mutation texting.
 
-![location](http://saskeli.kapsi.fi/loc.png)
+![location](../../assets/loc.png)
 
 The Maven project is very similar to a "normal" Java-project. The big difference is the pom.xml file that contains all the project dependacies in xml format. Add some libraries to ease testing the project.
 
@@ -192,4 +192,4 @@ Now your project has a custom context menu where mutation and test coverage repo
 
 You shuould add a new folder for documentation, to keep the project neat. To an empty folder you will need to add at least one file so that git adds te folder to version control. You can for example create the first weekly report. After this you are ready to push your changes to git.
 
-![folder](http://saskeli.kapsi.fi/doc.png)
+![folder](../../assets/doc.png)

@@ -29,7 +29,7 @@
 # Kurssin sisältö
 
 - Toteutuskieli ohjaajan hyväksyttävä. Ainakin Java käy.
-    - Tule kuitenkin juttelemaan jollet kirjoita javalla.
+    - Tule juttelemaan jollet halua kirjoitaa javalla.
     - Ota huomioon että vaaditaan testaus ja jonkinlainen testikattavuusraportointi
 - Käytössä **Git**-versionhallinta sekä **GitHub**
 - Harjoitustyö on **yksilötyö**
@@ -44,14 +44,15 @@
     - Pakkausalgoritmit
     - Krypto
     - Peliratkaisijat (miinaharava, nonogrammi, pasianssit...)
+        - Ks. miinaharavatemplaatti gitistä!
     - Tekoälyt (Shakki, go...)
-        - Ks. uusi shakki templaatti gitistä! 
+        - Ks. shakkitemplaatti gitistä! 
 - **Valitse ennen kaikkea jokin itseäsi kiinnostava aihe!**
 
 # Koodaustyyli
 
 - Kurssilla edellytetään että kirjoitettu koodi on laadukasta ja helppolukuista. Kannattaa käyttää tyylitarkastusta. Esim java checkstyle.
-- Projektin nimen olisi syytä olla kuvaava. Ohjaajalta menee hermo jos kaikkien projektien nimet ovat taas variaatioita nimestä "Tiralabra-2019".
+- Projektin nimen olisi syytä olla kuvaava. Ohjaajalta menee hermo jos kaikkien projektien nimet ovat taas variaatioita nimestä "Tiralabra-2020".
 - Sovelletaan OT kurssilla opittuja projektirakenteita.
     - Ei kaikki koodi projektin juureen samaan tiedostoon.
 - Sovelletaan myös muita hyvän koodaustyylin perjaatteita kuten DRY ja Single responsibility.
@@ -64,17 +65,17 @@
     - Palautukset tehdään *pushaamalla* projektin kunkin hetkinen tilanne GitHubiin
         - Ei sähköpostipalautuksia
     - Suuri osa pisteistä -- ja siten arvosanasta -- tulevat deadlinejen perusteella
-    - Ohjaaja antavat palautetta edistymisestä joka deadlinen jälkeen -- perusteellisempaa palautetta kannattaa tulla pyytämään pajasta, sähköpostilla tai ircistä
+    - Ohjaaja antavaa palautetta edistymisestä joka deadlinen jälkeen -- perusteellisempaa palautetta kannattaa tulla pyytämään pajasta, sähköpostilla tai ircistä
     - Lisäaikaa saa **hyvällä syyllä**, **etukäteen pyytämällä**
 
 # Kurssin kulku
 
-- Viikottaisten ohjaus perjantaisin aikataulun mukaan luokassa BK107 algopajan yhteydessä
+- Viikottaisten ohjaus torstaisin aikataulun mukaan luokassa BK107
     - Yksilöohjausta voidan järjestää pyynöstä kampuksella
     - Täysin vapaaehtoista
     - **Paras väylä saada apua ja palautetta ohjaajilta**
     - Telegram ei ole virallinen tietolähde, vaikka onkin kätevä
-    - Algopajasta voi saada apua algoritmien ja tietorakenteiden toteutukseen myös muuhun aikaan
+    - Pajasta voi saada apua algoritmien ja tietorakenteiden toteutukseen myös muuhun aikaan
 
 # Kurssin kulku
 

@@ -19,6 +19,7 @@ permalink: /en/timing/
     * Enable adding issues to your repository for code reviews. [enabling issues](../issues/)
     * Register to Labtool: [https://study.cs.helsinki.fi/labtool/](https://study.cs.helsinki.fi/labtool/)
     * [Quick guide](../labtool/) for Labtool.
+    * If you are not confident in your ability to write tests and setup projects, you should familiarize yourself with the [testing and rmq](https://github.com/TiraLabra/Testing-and-rmq) repository.
 
 # Week 2:
 
@@ -92,7 +93,7 @@ permalink: /en/timing/
 **<script>document.write(enString(timing["end"].date));</script>**
 
 * **Documentation:**
-    * 100% clear and commented code. (If you are using Java, you should generate the Javadoc files and add or link them to your repository)
+    * 100% clear and commented code
     * Done documentation:
         * Project definition (No need to update unless specifically requested)
         * Testing document

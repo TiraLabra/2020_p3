@@ -19,6 +19,7 @@ permalink: /fi/aikataulu/
     * Salli issuet vertaisarviointia varten, katso [Issueiden luonnin salliminen repoon](../issuet/)
     * Rekisteröidytty kurssille labtoolissa: [https://study.cs.helsinki.fi/labtool/](https://study.cs.helsinki.fi/labtool/)
     * Labtoolin [pikaohje](../labtool/)
+    * Jos uskot tarvitsevasi lisämateriaalia ja esimerkkejä testaamisesta ja projektin pystyttämisestä, kannattaa tutustua [testing and rmq](https://github.com/TiraLabra/Testing-and-rmq) projektiin jo tässä vaiheessa.
 
 # Viikko 2:
 
@@ -93,7 +94,7 @@ permalink: /fi/aikataulu/
 **<script>document.write(fiString(timing["end"].date));</script>**
 
 * **Dokumentaatio:**
-    * 100% selkeää ja kommentoitu koodi (jos käytit Javaa, generoi Javadoc ja lisää palautukseen)
+    * 100% selkeää ja kommentoitu koodi
     * Valmiit dokumentit:
         * Määrittelydokumentti (ei tarvitse päivittää alkuperäisestä)
         * Toteutusdokumentti

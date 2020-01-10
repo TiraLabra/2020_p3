@@ -14,7 +14,7 @@ Alla Mahdollisimman yksinkertaistettu tapa saada pystyyn java gradle tai maven p
 
 Käytettäessä netbeanssia on yleensä näpprä luoda ensin repositorio johon projekti luodaan koska netbeans osaa usein päivittää automaattisesti ```.gitignore``` tiedostoa kun projektin kehittyy.
 
-![Git projekti](http://saskeli.kapsi.fi/create.png)
+![Git projekti](../../assets/create.png)
 
 Kannataa ainakin ruksia "Initialize repository with README.md" että projektin voi kloonata heti luonnin jälkeen.
 
@@ -22,7 +22,7 @@ Kannataa ainakin ruksia "Initialize repository with README.md" että projektin v
 
 Kopioi repoitorion linkki
 
-![clone](http://saskeli.kapsi.fi/clone.png)
+![clone](../../assets/clone.png)
 
 Aja ```git clone <linkki repoon>```
 
@@ -30,17 +30,17 @@ Aja ```git clone <linkki repoon>```
 
 Tarkasta ```Tools -> Plugins``` takaa valikosta että neatbeansiin on asennettu gradle tuki.
 
-![plugin](http://saskeli.kapsi.fi/gradle_plugin.png)
+![plugin](../../assets/gradle_plugin.png)
 
 Jos tukea ei ole asennettu niin asenna se "available plugins välilehdeltä".
 
 Luo normaalisti uusi projekti netbeansilla mutta valitse asetuksista ```Gradle -> Sinlge Gradle Project```.
 
-![gradle create](http://saskeli.kapsi.fi/gradle_create1.png)
+![gradle create](../../assets/gradle_create1.png)
 
 Aseta projektin sijainniksi kloonaamasi repo.
 
-![location](http://saskeli.kapsi.fi/gradle_create2.png)
+![location](../../assets/gradle_create2.png)
 
 Lisää `build.gradle` tiedostoon ainakin seuraavat rivit. Tiedosto kannattaa muutenkin pitää ajantasalla. (Lisää rivit oikeaan kohtaan tiedostoa. Tiedostossa valmiiksi olevat rivit kyllä kertoo paikat)
 
@@ -62,11 +62,11 @@ check.dependsOn jacocoTestReport
 
 Projekti luodaan normaalisti NetBeansin **New Project**-nappulasta. Nyt kuitenkin ei valita kategoriaa **Java**, vaan hieman alempaa etsitään kohta **Maven**. Oikeasta valikosta voidaan nyt valita **Java Application**.
 
-![create maven](http://saskeli.kapsi.fi/mvn_create.png)
+![create maven](../../assets/mvn_create.png)
 
 Sivulla **Name and Location** kannattaa antaa ohjelmalle hyvä ja kuvaava nimi. Aseta **Project Location**:ksi Git-repositoriosi polku (omalle koneellesi luotu repositoriokansio, josta pushit ja commitit tehdään). Myös **Group id** täytyy vaihtaa ohjelman nimen mukaiseksi tai ainakin joksikin muuksi kuin _com.mycompany.enterprising.domain_ , ja se pitää kirjoittaa **pienillä kirjaimilla**. Tämä on tärkeää mutaatiotestauksen toiminnan kannalta. GroupId muuttaa ohjelman vakiopakkauksen nimen.
 
-![location](http://saskeli.kapsi.fi/loc.png)
+![location](../../assets/loc.png)
 
 Maven ei eroa "normaalista" Java-projektista kovinkaan paljoa. Suurin ero on pom.xml-tiedosto joka kuvaa xml:nä projektin riippuvuudet eri kirjastoista. Lisäämme sinne valmiiksi muutaman testausta auttavan kirjaston.
 
@@ -190,4 +190,4 @@ Avaa tiedosto ja korvaa sen sisältö tällä:
 
 Dokumentaatiolle kannattaa luoda oma kansio jotta projektin juuri pysyy siistinä. Tyhjään dokumentaatiokansioon täytyy lisäksi luoda edes yksi tiedosto jotta git osaa lisätä sen versiohallintaan. Tämän voi tehdä esimerkiksi luomalla valmiiksi enimmäisen viikkoraportin. Tämän jälkeen muutokset voi puskea gittiin.
 
-![folder](http://saskeli.kapsi.fi/doc.png)
+![folder](../../assets/doc.png)

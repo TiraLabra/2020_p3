@@ -7,6 +7,10 @@ title: Data Structures Project, 2019 end of summer intensive period
 ---
 <script src="../assets/fuu.js"></script>
 
+<noscript><h2 style="color:red;font-weight:bold;">These pages will not render properly without javascript</h2>
+Enable scripts at least from <code>tiralabra.github.io</code>.
+</noscript>
+
 ## Course assistants
 
 <script>
@@ -115,9 +119,9 @@ if (timing["paja1"]) {
   }
 </script>
 * **Mandatory!** Contact the course assistant if you can not make the Demo session. The Demo session is mandatory to get a passing grade!
-* You can present with your own laptop. In this case you may want to arrive early to test that the laptop works properly with the projector.
-* All projects will also be loaded onto a presentation machine, which you may use for the demonstration. However there have been issues with this in the past so presenting with your own laptop is recommended.
-* Approximately (at most) 5 minutes per project.
+* Preferrably present with your own laptop. In this case you may want to arrive early to test that the laptop works properly with the projector. If you are not able to present using your own laptop, please make arrangements with a friend or contact a course assistant.
+* All projects will also be loaded onto a presentation machine, which you may use for the demonstration. However the presentation machine don't always work at all and when they work, the projects may not work in the presentation environment.
+* At most 5 minutes per project.
 * Slides are not required for the presentation and generally not recommended unless you have a specific reason to use them.
 
 ## Example projects
@@ -135,7 +139,7 @@ The course will be partially (mostly) done online. All weekly submissions will b
 
 The program will be written in a language **approved by the course assistant**, which is almost always Java.
 
-The primary goal of the course is to learn to implement data structures and algoritms. For this reason all required data structures and algorithms will have to be implemented by the student. Generally only primitive types, arrays and strings may be used, everything else has to be implemented using these. Other tools such as IO and GUI libraries may be used. **Data structures from standard libraries (such as ArrayList, HashMap and so on from Java) or algorithms (Collections.sort...) may not be used in the final submission**, and it is suggested that the imports for these are completely removed. If you are unsure if a particular class/library is allowed, ask the course assistant.
+The primary goal of the course is to learn to implement data structures and algoritms. For this reason all required data structures and algorithms will have to be implemented by the student. Generally only **primitive types**, **arrays** and **strings** may be used, everything else has to be implemented using these. Other tools such as IO and GUI libraries may be used. **Data structures from standard libraries (such as ArrayList, HashMap and so on from Java) or algorithms (Collections.sort...) may not be used in the final submission**, and it is suggested that the imports for these are completely removed. If you are unsure if a particular class/library is allowed, ask the course assistant.
 
 Generally a good approach to incrementally complete a project has been to first implement the core functionality of the program by using ready-made data structures and algorithms (queues, heaps, sorting algorithms). That is, it may be a prudent to first quickly implement the core functinality and later replace library implementations with self-made ones, i.e. replace implementations defined by interfaces with data structures and algorithms made from scratch. This is the assumed working idea for the project timeline. If you want to approach the project in a different way, you should decide on progress milestones for the project with the course assistant during the first week of the course.
 

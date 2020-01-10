@@ -12,6 +12,10 @@ title: Tiralabra
 
 [Link to English materials](en/)
 
+<noscript><h2 style="color:red;font-weight:bold;">Sivuston sisältö ei näy oikein ilman javascript tukea</h2>
+Salli scriptit ainakin lähteestä <code>tiralabra.github.io</code>.
+</noscript>
+
 ## Ohjaaja
 
 <ul>
@@ -49,7 +53,7 @@ Tarkempi aikataulu [täällä](fi/aikataulu/).
 
 ## 📣 Ajankohtaista
 
- * <script>
+* <script>
    if (doodleSent) {
     if (timing["demo"]) {
       document.write("Demotilaisuuden ajankohdat on lyöty lukkoon. Ottakaa yhteyttä jos ette pääse paikalle.")
@@ -59,7 +63,7 @@ Tarkempi aikataulu [täällä](fi/aikataulu/).
    } else {
     document.write("Kysely demotilaisuuden aikatauluttamiseksi lähetetään kurssin puolivälin paikkeilla.")
    }
- </script>
+  </script>
 * Lopullinen palautus <script>document.write(fiString(timing["end"].date));</script>, tähän ei ole saatavilla lisäaikaa.
 * Jos löydät kurssisivuilta jotain parannettavaa. Voit seurata [täältä](fi/bug_bounty) löytyviä ohjeita virheen korjaamisesksi. Hyvistä korjauksista on mahdollista saada yhden kurssipisteen "bug bounty" (max 1 per oppilas)
 
@@ -123,8 +127,8 @@ if (timing["paja1"]) {
 </script>
 * **PAKOLLINEN!** Ota yhteyttä jos et pääse demotilaisuuteen, se on läpipääsyyn pakollinen!
 * One erittäin suositeltavaa demota omalta kannettavalta. Tässa tapauksessa voi olla hyvä saapua demoon hyvissä ajoin ja varmistaa että projektori toimii koneen kanssa. Jos omaa kannettavaa ei ole kannattaa demoamisesta sopia kaverin tai ohjaajan kanssa erikseen.
-* Projektit ladataan myös etukäteen esityskoneelle. Mutta ei omalta koneelta esittäminen ei perinteisesti onnistu kauhean hyvin. Esityskoneet eivät läheskään aina toimi ollenkaan, ja kun toimivat niin projektit eivät välttämättä toimi esityskoneen ympäristössä.
-* Noin 5min per projekti.
+* Projektit ladataan myös etukäteen esityskoneelle. Osaston koneelta esittäminen ei perinteisesti onnistu kauhean hyvin. Esityskoneet eivät läheskään aina toimi ollenkaan, ja kun toimivat niin projektit eivät välttämättä toimi esityskoneen ympäristössä.
+* Korkeintaan 5min per projekti.
 * Ei tarvitse dioja, mutta halutessaan niitä voi käyttää, tosin ne vie aikaa, joten ei suositeltu, etenkään ellei tuo omaa konetta esitykseen.
 
 ## Esimerkkiprojektit
@@ -138,11 +142,11 @@ Kurssin työmäärä on opintopisteiden (4) perusteella n. 107 tuntia. Varaudu s
 
 Kurssilla opiskelija toteuttaa ohjelman, joka ratkaisee jonkin ohjelmointiongelman. Ongelmanratkaisuun käytetään sopivia algoritmeja sekä tietorakenteita. Oppimismatriisin tiedoista poiketen, opiskelja valitsee ratkaistavan ongelman yhdessä ohjaajan kanssa. Suoritus ei edellytä oman algoritmin kehittämistä. Tämäkin on mahdollista, mikäli opiskelija haluaa haastavamman aiheen. Keskeistä työssä on, että ohjelma on toimiva ja tehokas. Sen tulee kaikissa tapauksissa antaa nopeasti oikea vastaus. Työn aiheesta riippuu, miten suuria tapauksia ohjelman tulee pystyä käsittelemään. Tämä sovitaan ohjaajan kanssa. Mahdollisia aiheita voi katsoa [täältä](fi/aiheet).
 
-Kurssi pidetään osittain verkkokurssina, kaikki viikoittaiset palautukset tapahtuvat verkon kautta. Ainoa pakollinen tapaaminen laitoksella on aloitusluento sekä loppudemot. Lisätietoa palautuksista [täällä](fi/palautukset).
+Kurssi pidetään osittain verkkokurssina, kaikki viikoittaiset palautukset tapahtuvat verkon kautta. Ainoat pakolliset tapaamiset ovat aloitusluento sekä loppudemot. Lisätietoa palautuksista [täällä](fi/palautukset).
 
 Ohjelma toteutetaan **ohjaajan hyväksymällä** kielellä, melkein poikkeuksetta Javalla.
 
-Kurssin ensisijainen tavoite on oppia toteuttamaan itse tietorakenteita, ja tästä syystä tarvittavat algoritmit ja tietorakenteet tulee toteuttaa itse. Nyrkkisääntönä vain perustietotyyppejä, taulukoita ja merkkijonoja saa käyttää, muu on tehtävä itse, erityisesti Tietorakenteet-kurssilla opetellut rakenteet. Muita apuvälineitä, kuten tiedostonkäsittelyluokkia, saa tietenkin käyttää. **Valmiita tietorakenteita (esim. Javassa: ArrayList, HashMap...) tai algoritmeja (esim. Collections.sort) ei saa käyttää lopullisessa työssä** ja myös niiden importit kannattaa poistaa. Jos olet epävarma jonkin luokan käyttämisestä, kysy ohjaajalta.
+Kurssin ensisijainen tavoite on oppia toteuttamaan itse tietorakenteita, ja tästä syystä tarvittavat algoritmit ja tietorakenteet tulee toteuttaa itse. Nyrkkisääntönä vain **perustietotyyppejä**, **taulukoita** ja **merkkijonoja** saa käyttää, muu on tehtävä itse, erityisesti Tietorakenteet-kurssilla opetellut rakenteet. Muita apuvälineitä, kuten tiedostonkäsittelyluokkia, saa tietenkin käyttää. **Valmiita tietorakenteita (esim. Javassa: ArrayList, HashMap...) tai algoritmeja (esim. Collections.sort) ei saa käyttää lopullisessa työssä** ja myös niiden importit kannattaa poistaa. Jos olet epävarma jonkin luokan käyttämisestä, kysy ohjaajalta.
 
 Hyväksi koettu tapa tehdä työ vaiheittain on laittaa ensin kuntoon algoritmin ydin käyttäen kielen standardikirjastojen valmista kalustoa (jonot, keot, järjestämisalgoritmit). Kannattaa siis pyrkiä toteuttamaan algoritmin ydin nopeasti ja sen jälkeen korvata käytetty kalusto omilla toteutuksilla. Eli toteuttaa rajapintojen takana olevat rakenteet ja/tai algoritmit itse.  Tätä tapaa käytetään osapalautusten pohjana algoritmin/tietorakenteiden kehityksen osalta. Mikäli toteutat työn erilaisella lähestymistavalla, sovi työn edistymisen "Milestone":t jo 1. viikon aikana ohjaajan kanssa.
 

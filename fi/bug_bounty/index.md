@@ -13,18 +13,18 @@ Jos huomaat kurssimateriaalissa kirjoitusvirheitä tai muita puutteita (esimerki
 * Kun navigoit kyseisen dokumentin git sivulle, voit nähdä kynän kuvan dokumentin oikeassa yläreunassa.
 * Kirjaudu sisään GitHubiin ja paina kynä ikonia:
 
-![](http://saskeli.kapsi.fi/kyna.png)
+![](../../assets/kyna.png)
 
 * Korjaa virhe ja ehdota muutosta (nappi sivun alalaidassa):
 
-![](http://saskeli.kapsi.fi/propose.png)
+![](../../assets/propose.png)
 
 * Luo pullrequest:
 
-![](http://saskeli.kapsi.fi/pr.png)
+![](../../assets/pr.png)
 
 * Ja varmista vielä:
 
-![](http://saskeli.kapsi.fi/confirm.png)
+![](../../assets/confirm.png)
 
 * Korjausehdotuksesta tulee nyt pullrequest ja se päivittyy siinä vaiheessa sivulle kun joku kurssihenkilökunnasta hyväksyy sen.
