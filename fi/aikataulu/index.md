@@ -6,6 +6,12 @@ tag: info
 permalink: /fi/aikataulu/
 ---
 
+## <span style="color:red;">HUOM</span>
+
+Vaikka et olisi tehnyt mitään jollakin tietyllä viikolla, kannattaa viikkoraportti kuitenkin kirjoittaa niin että repositoriossa on muutoksia viikon ajalta. Voit jopa saada pisteitä. Muuten pisteitä tulee automaattisesti 0 vaikka projektista olisi muuten mahdollista saada viikkopisteitä.
+
+Kolmen peräkkäisen viikkon ajan muuttumaton repositorio tulkitan kurssin keskeyttämiseksi!
+
 # Viikko 1:
 
 * Palautus 1: **<script>document.write(fiString(timing["dl1"].date));</script>**

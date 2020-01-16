@@ -6,6 +6,12 @@ tag: info
 permalink: /en/timing/
 ---
 
+## <span style="color:red;">NOTE</span>
+
+Even if you have done nothing for the project during some week, it is still a good idea to make some sort of weekly report, so that there is a weekly submission for the project. You may even get points. No activity in a repository is automatically graded as a 0.
+
+No repository acitivy for 3 consecutive weeks is usually interpreted as a student having dropped the course.
+
 # Week 1:
 
 * Submission 1: **<script>document.write(enString(timing["dl1"].date));</script>**
