@@ -15,7 +15,7 @@ permalink: /en/timing/
     * Documentation: Project specification done.
     * Week 1 report: First weekly report is done (see [submissions](../submissions/))
     * Make sure that you have linked your weekly report and project specification to the repository front page to ease grading. If you need help with Markdown you can check this [guide](https://guides.github.com/features/mastering-markdown/), ask for help from the course assistant or just look at the source code for this file!
-    * Project: Project has been created. Check [here](../maven-gradle/) for instructions if needed. GitHub version control is set up. Everything that needs to be submitted has been added to version control, nothing is submitted by email or pidgeon!
+    * Project: Project has been created. Check [here](../maven-gradle/) for instructions if needed. GitHub version control is set up. Everything that needs to be submitted has been added to version control, nothing is submitted by email or pigeon!
     * Enable adding issues to your repository for code reviews. [enabling issues](../issues/)
     * Register to Labtool: [https://study.cs.helsinki.fi/labtool/](https://study.cs.helsinki.fi/labtool/)
     * [Quick guide](../labtool/) for Labtool.
@@ -28,7 +28,7 @@ permalink: /en/timing/
     * Week 2 report: see [submissions](../submissions/)
     * Program: Work on implementing the core functionality has been started possibly using library implementations of algorithms and data structures. These will later be replaced with self-made implementations, but in many cases it's easier to use library implementations first.
     * Testing: *Comprehensive* unit testing of the code. (e.g. JUnit tests for Java)
-        * Ensure that when creating new classes you also create tests as soon as possible (preferably in the same submission as the class was created) to make sure that you new implementations work as expected. See [supplementary material on testing](https://github.com/TiraLabra/Testing-and-rmq) if needed.
+        * Ensure that when creating new classes you also create tests as soon as possible (preferably in the same submission as the class was created) to make sure that your new implementations work as expected. See [supplementary material on testing](https://github.com/TiraLabra/Testing-and-rmq) if needed.
     * Preferably some tool for test coverage should be configured by now.
         * For java there are some instructions here for [PIT and jacoco](../maven-gradle). Codecov is also an option.
         * For other languages a code coverage should be provided each week for example through Codecov or github pages.
@@ -39,7 +39,7 @@ permalink: /en/timing/
 * Submission 3: **<script>document.write(enString(timing["dl3"].date));</script>**
     * [Documentation](../docuementation/): Written code is clear and commented.
     * Week 3 report.
-    * Program: Werk on implementing core functionality has continued. Possibly started implementing data structures.
+    * Program: Work on implementing core functionality has continued. Possibly started implementing data structures.
     * Testing: *Comprehensive* unit testing of the code.
     * By this submission at the latest, test coverage should be available to the teaching staff weekly.
     * Checktyle or a similar code quality tool should also be in use by this time.
