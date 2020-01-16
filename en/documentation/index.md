@@ -22,7 +22,7 @@ Each document should be approximately 1 to 2 A4 pages in length, disregarding im
 * Sources
 
 #### Implementation document
-* Project stricture
+* Project structure
 * Implemented time and space complexities (big-O complexity analysis of (pseudo)code)
 * Comparative performance and complexity analysis if applicable
 * Possible flaws and improvements
@@ -42,8 +42,8 @@ Each document should be approximately 1 to 2 A4 pages in length, disregarding im
 * Where can the executable be found and where can required files be found
 
 
-Compared to other project work, documentation of the code is not very highly prioritized for the data structures and algorithm project. However the code should be as clear as possible, the methods short and naming intuitive. The same applies to the project structure.
+Compared to other project works, documentation of the code is not very highly prioritized for the Data Structures and Algorithms project. However the code should be as clear as possible, the methods short and naming intuitive. The same applies to the project structure.
 
-The code should be as clear and undestandable as possible. Add comments to you code comprehensively. Every class, method, and atribute does not necessarily require commenting but everything essential and possibly confusing should be accounted for in comments. For method comments you should include parameter definitions and a definition for the return value. Generally very little internal commenting of methods should be needed due methods being intuitively named, compact and simple. However, if the the working of a method is not clear, some comments may be required.
+The code should be as clear and understandable as possible. Add comments to your code comprehensively. Every class, method, and attribute does not necessarily require commenting, but everything essential and possibly confusing should be accounted for in comments. For method comments you should include parameter definitions and a definition for the return value. Generally very little internal commenting of methods should be needed due methods being intuitively named, compact and simple. However, if the workings of a method is not clear, some comments may be required.
 
-For any work done in java, JavaDoc comments will be used. NetBeans can create javadoc templates for methods and classes. If you are doing the project in another language you will have to discuss specific requirements for documentation with the courese assistant. Class diagrams for java can for instance be created using a tool called YWorks.
+For any work done in Java, JavaDoc comments will be used. NetBeans can create Javadoc templates for methods and classes. If you are doing the project in another language you will have to discuss specific requirements for documentation with the course assistant. Class diagrams for Java can for instance be created using a tool called YWorks.
