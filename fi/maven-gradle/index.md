@@ -6,21 +6,21 @@ tag: info
 permalink: /fi/maven-gradle/
 ---
 
-Alla Mahdollisimman yksinkertaistettu tapa saada pystyyn java gradle tai maven projekti. Jos tiedät jo mitä teet ja sinulla on tapa jota mielummin käytät, niin voit vapaasti sivuuttaa tämän ohjeen.
+Alla mahdollisimman yksinkertaistettu tapa saada pystyyn Java Gradle tai Maven projekti. Jos tiedät jo mitä teet ja sinulla on tapa jota mielummin käytät, niin voit vapaasti sivuuttaa tämän ohjeen.
 
 [Maven](https://en.wikipedia.org/wiki/Apache_Maven) ja [Gradle](https://en.wikipedia.org/wiki/Gradle) on javalle tehtyjä [Build automation](https://en.wikipedia.org/wiki/Build_automation) -työkaluja. Molemmat helpottavat esimerkiksi testikattavuusraporttien tekemistä tai jarin rakentamista.
 
 ### 1. Luo Projektin repostorio
 
-Käytettäessä netbeanssia on yleensä näpprä luoda ensin repositorio johon projekti luodaan koska netbeans osaa usein päivittää automaattisesti ```.gitignore``` tiedostoa kun projektin kehittyy.
+Käytettäessä Netbeansia on yleensä näppärä luoda ensin repositorio, johon projekti luodaan, koska Netbeans osaa usein päivittää automaattisesti ```.gitignore``` tiedostoa kun projektin kehittyy.
 
 ![Git projekti](../../assets/create.png)
 
-Kannataa ainakin ruksia "Initialize repository with README.md" että projektin voi kloonata heti luonnin jälkeen.
+Kannattaa ainakin ruksia "Initialize repository with README.md" että projektin voi kloonata heti luonnin jälkeen.
 
 ### 2. Kloonaa repositorio
 
-Kopioi repoitorion linkki
+Kopioi repositorion linkki
 
 ![clone](../../assets/clone.png)
 
@@ -34,7 +34,7 @@ Tarkasta ```Tools -> Plugins``` takaa valikosta että neatbeansiin on asennettu 
 
 Jos tukea ei ole asennettu niin asenna se "available plugins välilehdeltä".
 
-Luo normaalisti uusi projekti netbeansilla mutta valitse asetuksista ```Gradle -> Sinlge Gradle Project```.
+Luo normaalisti uusi projekti netbeansilla mutta valitse asetuksista ```Gradle -> Single Gradle Project```.
 
 ![gradle create](../../assets/gradle_create1.png)
 
@@ -68,7 +68,7 @@ Sivulla **Name and Location** kannattaa antaa ohjelmalle hyvä ja kuvaava nimi. 
 
 ![location](../../assets/loc.png)
 
-Maven ei eroa "normaalista" Java-projektista kovinkaan paljoa. Suurin ero on pom.xml-tiedosto joka kuvaa xml:nä projektin riippuvuudet eri kirjastoista. Lisäämme sinne valmiiksi muutaman testausta auttavan kirjaston.
+Maven ei eroa "normaalista" Java-projektista kovinkaan paljoa. Suurin ero on pom.xml-tiedosto, joka kuvaa xml:nä projektin riippuvuudet eri kirjastoista. Lisäämme sinne valmiiksi muutaman testausta auttavan kirjaston.
 
 Nyt projektisi pom.xml:n pitäisi näyttää jotakuinkin seuraavalta:
 ``` xml
@@ -188,6 +188,6 @@ Avaa tiedosto ja korvaa sen sisältö tällä:
 
 ### 4. Luo dokumentaatiokansio ja puske gittiin
 
-Dokumentaatiolle kannattaa luoda oma kansio jotta projektin juuri pysyy siistinä. Tyhjään dokumentaatiokansioon täytyy lisäksi luoda edes yksi tiedosto jotta git osaa lisätä sen versiohallintaan. Tämän voi tehdä esimerkiksi luomalla valmiiksi enimmäisen viikkoraportin. Tämän jälkeen muutokset voi puskea gittiin.
+Dokumentaatiolle kannattaa luoda oma kansio, jotta projektin juuri pysyy siistinä. Tyhjään dokumentaatiokansioon täytyy lisäksi luoda edes yksi tiedosto jotta git osaa lisätä sen versiohallintaan. Tämän voi tehdä esimerkiksi luomalla valmiiksi ensimmäisen viikkoraportin. Tämän jälkeen muutokset voi puskea gittiin.
 
 ![folder](../../assets/doc.png)
