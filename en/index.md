@@ -74,7 +74,7 @@ Detailed course timing is available [here](timing/).
 
 * [Guide and examples on testing in java projects](https://github.com/TiraLabra/Testing-and-rmq)
 
-* [Simple instructions for creating Gardle or Maven projects](maven-gradle/)
+* [Simple instructions for creating Gradle or Maven projects](maven-gradle/)
 
 * [Information on submissions and weekly reports](submissions/)
 
@@ -105,7 +105,7 @@ if (timing["paja1"]) {
   script.parentElement.insertBefore(elem, script);
 }
 </script>
-<li>You may also contact the course assistant through<a href="https://t.me/tkttiralabra">Telegram</a>.</li>
+<li>You may also contact the course assistant through <a href="https://t.me/tkttiralabra">Telegram</a>.</li>
 <li>E-mail also works.</li>
 </ul>
 
@@ -139,9 +139,9 @@ The course will be partially (mostly) done online. All weekly submissions will b
 
 The program will be written in a language **approved by the course assistant**, which is almost always Java.
 
-The primary goal of the course is to learn to implement data structures and algoritms. For this reason all required data structures and algorithms will have to be implemented by the student. Generally only **primitive types**, **arrays** and **strings** may be used, everything else has to be implemented using these. Other tools such as IO and GUI libraries may be used. **Data structures from standard libraries (such as ArrayList, HashMap and so on from Java) or algorithms (Collections.sort...) may not be used in the final submission**, and it is suggested that the imports for these are completely removed. If you are unsure if a particular class/library is allowed, ask the course assistant.
+The primary goal of the course is to learn to implement data structures and algorithms. For this reason all required data structures and algorithms will have to be implemented by the student. Generally only **primitive types**, **arrays** and **strings** may be used, everything else has to be implemented using these. Other tools such as IO and GUI libraries may be used. **Data structures from standard libraries (such as ArrayList, HashMap and so on from Java) or algorithms (Collections.sort...) may not be used in the final submission**, and it is suggested that the imports for these are completely removed. If you are unsure if a particular class/library is allowed, ask the course assistant.
 
-Generally a good approach to incrementally complete a project has been to first implement the core functionality of the program by using ready-made data structures and algorithms (queues, heaps, sorting algorithms). That is, it may be a prudent to first quickly implement the core functinality and later replace library implementations with self-made ones, i.e. replace implementations defined by interfaces with data structures and algorithms made from scratch. This is the assumed working idea for the project timeline. If you want to approach the project in a different way, you should decide on progress milestones for the project with the course assistant during the first week of the course.
+Generally a good approach to incrementally complete a project has been to first implement the core functionality of the program by using ready-made data structures and algorithms (queues, heaps, sorting algorithms). That is, it may be a prudent to first quickly implement the core functionality and later replace library implementations with self-made ones, i.e. replace implementations defined by interfaces with data structures and algorithms made from scratch. This is the assumed working idea for the project timeline. If you want to approach the project in a different way, you should decide on progress milestones for the project with the course assistant during the first week of the course.
 
 ## 📈 Grading criteria
 * Program: 30 p
