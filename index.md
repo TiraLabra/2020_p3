@@ -104,7 +104,7 @@ if (timing["paja1"]) {
   elem.innerHTML = "Pajaohjausta järjestetään kalenterissa näkyviin aikoihin.";
   script.parentElement.insertBefore(elem, script);
   elem = document.createElement("li");
-  elem.innerHTML = "Algopajasta voi myös muihin aikoihin pyytää apua aloritmeihin liittyen.";
+  elem.innerHTML = "Pajasta voi myös muihin aikoihin pyytää apua aloritmeihin liittyen.";
   script.parentElement.insertBefore(elem, script);
 } else {
   var elem = document.createElement("li");
@@ -118,18 +118,32 @@ if (timing["paja1"]) {
 
 ## Demotilaisuus
 
-* <script>
-  if (timing["demo"]) {
-    document.write("Paikka ja aika: " + fiEvent(timing["demo"]) + ".");
+<ul>
+  <li id="demo" />
+  <li><b>PAKOLLINEN!</b> Ota yhteyttä jos et pääse demotilaisuuteen, se on läpipääsyyn pakollinen!</li> 
+  <li>One erittäin suositeltavaa demota omalta kannettavalta. Tässa tapauksessa voi olla hyvä saapua demoon hyvissä ajoin ja varmistaa että projektori toimii koneen kanssa. Jos omaa kannettavaa ei ole kannattaa demoamisesta sopia kaverin tai ohjaajan kanssa erikseen.</li>
+  <li>Projektit ladataan myös etukäteen esityskoneelle. Osaston koneelta esittäminen ei perinteisesti onnistu kauhean hyvin. Esityskoneet eivät läheskään aina toimi ollenkaan, ja kun toimivat niin projektit eivät välttämättä toimi esityskoneen ympäristössä.</li>
+  <li>Korkeintaan 5min per projekti.</li>
+  <li>Ei tarvitse dioja, mutta halutessaan niitä voi käyttää, tosin ne vie aikaa, joten ei suositeltu, etenkään ellei tuo omaa konetta esitykseen.</li>
+</ul>
+
+<script>
+  var elem = document.getElementById("demo");
+  if (timing["demo2"]) {
+    elem.innerHTML = "Paikat ja ajat:";
+    var ulelem = document.createElement("ul");
+    Object.keys(timing).filter(name => name.startsWith("demo")).map(name => fiEvent(timing[name])).forEach(ev => {
+      var lielem = document.createElement("li");
+      lielem.innerHTML = ev;
+      ulelem.appendChild(lielem);
+    })
+    elem.appendChild(ulelem);
+  } else if (timing["demo"]) {
+    elem.innerHTML = "Paikka ja aika: " + fiEvent(timing["demo"]) + ".";
   } else {
-    document.write("Aika ja paikka vahvistuvat myöhemmin.");
+    elem.innerHTML = "Aika ja paikka vahvistuvat myöhemmin.";
   }
 </script>
-* **PAKOLLINEN!** Ota yhteyttä jos et pääse demotilaisuuteen, se on läpipääsyyn pakollinen!
-* One erittäin suositeltavaa demota omalta kannettavalta. Tässa tapauksessa voi olla hyvä saapua demoon hyvissä ajoin ja varmistaa että projektori toimii koneen kanssa. Jos omaa kannettavaa ei ole kannattaa demoamisesta sopia kaverin tai ohjaajan kanssa erikseen.
-* Projektit ladataan myös etukäteen esityskoneelle. Osaston koneelta esittäminen ei perinteisesti onnistu kauhean hyvin. Esityskoneet eivät läheskään aina toimi ollenkaan, ja kun toimivat niin projektit eivät välttämättä toimi esityskoneen ympäristössä.
-* Korkeintaan 5min per projekti.
-* Ei tarvitse dioja, mutta halutessaan niitä voi käyttää, tosin ne vie aikaa, joten ei suositeltu, etenkään ellei tuo omaa konetta esitykseen.
 
 ## Esimerkkiprojektit
 

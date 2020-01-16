@@ -6,7 +6,7 @@
 
 - Ohjaajat
     - Saska Dönges -- **saskeli** -- etunimi.sukunimi@helsinki.fi
-- Yhteyttä sähköpostilla tai irkissä kurssikanavalla
+- Yhteyttä sähköpostilla tai telegrammissa kurssikanavalla
 
 - Telegram-kanava https://t.me/tkttiralabra/
 - Kurssisivu https://tiralabra.github.io/2020_p3/
@@ -65,7 +65,7 @@
     - Palautukset tehdään *pushaamalla* projektin kunkin hetkinen tilanne GitHubiin
         - Ei sähköpostipalautuksia
     - Suuri osa pisteistä -- ja siten arvosanasta -- tulevat deadlinejen perusteella
-    - Ohjaaja antavaa palautetta edistymisestä joka deadlinen jälkeen -- perusteellisempaa palautetta kannattaa tulla pyytämään pajasta, sähköpostilla tai ircistä
+    - Ohjaaja antavaa palautetta edistymisestä joka deadlinen jälkeen -- perusteellisempaa palautetta kannattaa tulla pyytämään pajasta, sähköpostilla tai telegrammista
     - Lisäaikaa saa **hyvällä syyllä**, **etukäteen pyytämällä**
 
 # Kurssin kulku

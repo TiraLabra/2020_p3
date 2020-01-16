@@ -78,16 +78,29 @@ permalink: /fi/aikataulu/
 
 # Demotilaisuus:
 
-* <script>
-  if (timing["demo"]) {
-    document.write("Aika ja paikka: " + fiEvent(timing["demo"]));
+<ul>
+  <li id="demo" />
+  <li>Mahdollisuus esittää koulun koneelta, mutta aiemmin sen kanssa on ollut ongelmia joten suositeltavaa ottaa oma läppäri.</li>
+  <li>Lyhyt noin 5 minuuttinen esitys ja mahdollisiin kysymyksiin vastailu (riippuen aikataulusta).</li>
+</ul>
+
+<script>
+  var elem = document.getElementById("demo");
+  if (timing["demo2"]) {
+    elem.innerHTML = "Paikat ja ajat:";
+    var ulelem = document.createElement("ul");
+    Object.keys(timing).filter(name => name.startsWith("demo")).map(name => fiEvent(timing[name])).forEach(ev => {
+      var lielem = document.createElement("li");
+      lielem.innerHTML = ev;
+      ulelem.appendChild(lielem);
+    })
+    elem.appendChild(ulelem);
+  } else if (timing["demo"]) {
+    elem.innerHTML = "Paikka ja aika: " + fiEvent(timing["demo"]) + ".";
   } else {
-    document.write("Tarkka aika ja paikka varmistuu kurssin kuluessa.")
+    elem.innerHTML = "Aika ja paikka vahvistuvat myöhemmin.";
   }
 </script>
-* Mahdollisuus esittää koulun koneelta, mutta aiemmin sen kanssa on ollut ongelmia joten suositeltavaa ottaa oma läppäri.
-* Lyhyt noin 5 minuuttinen esitys ja mahdollisiin kysymyksiin vastailu (riippuen aikataulusta).
-
 
 # LOPULLINEN PALAUTUS
 

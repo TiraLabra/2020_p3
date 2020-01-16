@@ -78,15 +78,29 @@ permalink: /en/timing/
 
 # Demo session:
 
-* <script>
-  if (timing["demo"]) {
-    document.write("Time and place: " + enEvent(timing["demo"]));
+<ul>
+  <li id="demo" />
+  <li>You can either present using the class computer or by using your own laptop. Typically using your own laptop is recommended.</li>
+  <li>A short approximately 5 minute presentation of your project and possibly some questions and answers.</li>
+</ul>
+
+<script>
+  var elem = document.getElementById("demo");
+  if (timing["demo2"]) {
+    elem.innerHTML = "Times and places:";
+    var ulelem = document.createElement("ul");
+    Object.keys(timing).filter(name => name.startsWith("demo")).map(name => enEvent(timing[name])).forEach(ev => {
+      var lielem = document.createElement("li");
+      lielem.innerHTML = ev;
+      ulelem.appendChild(lielem);
+    })
+    elem.appendChild(ulelem);
+  } else if (timing["demo"]) {
+    elem.innerHTML = "Time and place: " + enEvent(timing["demo"]) + ".";
   } else {
-    document.write("The exact time and date will be available later.")
+    elem.innerHTML = "Times and dates for demo sessions will be release later.";
   }
 </script>
-* You can either present using the class computer or by using your own laptop. Typically using your own laptop is recommended.
-* A short approximately 5 minute presentation of your project and possibly some questions and answers.
 
 # FINAL DEADLINE
 

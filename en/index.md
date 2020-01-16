@@ -111,18 +111,32 @@ if (timing["paja1"]) {
 
 ## Demonstration
 
-* <script>
-  if (timing["demo"]) {
-    document.write("Time and place: " + enEvent(timing["demo"]) + ".");
+<ul>
+  <li id="demo" />
+  <li><b>Mandatory!</b> Contact the course assistant if you can not make the Demo session. The Demo session is mandatory to get a passing grade!</li>
+  <li>Preferrably present with your own laptop. In this case you may want to arrive early to test that the laptop works properly with the projector. If you are not able to present using your own laptop, please make arrangements with a friend or contact a course assistant.</li>
+  <li>All projects will also be loaded onto a presentation machine, which you may use for the demonstration. However the presentation machine don't always work at all and when they work, the projects may not work in the presentation environment.</li>
+  <li>At most 5 minutes per project.</li>
+  <li>Slides are not required for the presentation and generally not recommended unless you have a specific reason to use them.</li>
+</ul>
+
+<script>
+  var elem = document.getElementById("demo");
+  if (timing["demo2"]) {
+    elem.innerHTML = "Times and places:";
+    var ulelem = document.createElement("ul");
+    Object.keys(timing).filter(name => name.startsWith("demo")).map(name => enEvent(timing[name])).forEach(ev => {
+      var lielem = document.createElement("li");
+      lielem.innerHTML = ev;
+      ulelem.appendChild(lielem);
+    })
+    elem.appendChild(ulelem);
+  } else if (timing["demo"]) {
+    elem.innerHTML = "Time and place: " + enEvent(timing["demo"]) + ".";
   } else {
-    document.write("Time and place for the demo session will be confirmed later.");
+    elem.innerHTML = "Times and dates for demo sessions will be release later.";
   }
 </script>
-* **Mandatory!** Contact the course assistant if you can not make the Demo session. The Demo session is mandatory to get a passing grade!
-* Preferrably present with your own laptop. In this case you may want to arrive early to test that the laptop works properly with the projector. If you are not able to present using your own laptop, please make arrangements with a friend or contact a course assistant.
-* All projects will also be loaded onto a presentation machine, which you may use for the demonstration. However the presentation machine don't always work at all and when they work, the projects may not work in the presentation environment.
-* At most 5 minutes per project.
-* Slides are not required for the presentation and generally not recommended unless you have a specific reason to use them.
 
 ## Example projects
 
