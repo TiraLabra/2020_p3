@@ -25,7 +25,7 @@ layout: default
     document.addEventListener("DOMContentLoaded", function () {
       var title = "{{ site.title }}";
       var description = "{{ site.description }}";
-      var refurl = "{{ site.url }}" + "{{ site.baseurl }}" + "/";
+      var refurl = "{{ site.url }}";
       var eroot = document.getElementsByClassName("page-header")[0];
       if (document.URL.includes("/en/")) {
         refurl = refurl + "en/";
