@@ -21,14 +21,33 @@ layout: default
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (document.URL.includes("/en/")) {
-      var elem = document.getElementsByClassName("project-name")[0];
-      elem.innerHTML = "{{ site.entitle }}";
-      elem = document.getElementsByClassName("project-tagline")[0];
-      elem.innerHTML = "{{ site.endescription }}";
-    }
-  });    
-</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var title = "{{ site.title }}";
+      var description = "{{ site.description }}";
+      var refurl = "{{ site.url }}" + "{{ site.baseurl }}" + "/";
+      var eroot = document.getElementsByClassName("page-header")[0];
+      if (document.URL.includes("/en/")) {
+        refurl = refurl + "en/";
+        title = "{{ site.entitle }}";
+        description = "{{ site.endescription }}";
+      }
+      var elem = document.getElementsByClassName("project-tagline")[0];
+      var a = document.createElement("a");
+      a.setAttribute("href", refurl);
+      a.setAttribute("style", "color: white;text-decoration: none");
+      a.appendChild(elem);
+      elem.innerHTML = description;
+      eroot.insertBefore(a, eroot.firstChild);
+  
+      elem = document.getElementsByClassName("project-name")[0];
+      a = document.createElement("a");
+      a.setAttribute("href", refurl);
+      a.setAttribute("style", "color: white;text-decoration: none");
+      a.appendChild(elem);
+      elem.innerHTML = title;
+      eroot.insertBefore(a, eroot.firstChild);
+    });
+    
+  </script>
 </article>
